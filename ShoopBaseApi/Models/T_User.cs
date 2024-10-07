@@ -34,7 +34,6 @@ namespace ShoopBaseApi.Models
         [StringLength(15)]
         public string Mobile { get; set; }
 
-        [Required]
         [StringLength(100)]
         public string Emile { get; set; }
 

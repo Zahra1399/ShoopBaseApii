@@ -1,8 +1,9 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using ShoopBaseApi.Models;
+using System.ComponentModel.DataAnnotations;
 
-namespace ShoopBaseApi.Models
+namespace ShoopBaseApi.DTo
 {
-    public class T_LowOk
+    public class LowOkCreationDto
     {
         [Key]
         public long ID_LowOk { get; set; }
@@ -21,4 +22,3 @@ namespace ShoopBaseApi.Models
         public virtual T_User T_User { get; set; }
     }
 }
-
